@@ -14,8 +14,10 @@ To create collage for tracks just use the method :
   
   Examples : 
   
-<code>createArtistsCollage(10,500,"medium_term",True,True,"amedium_term.png")
-createArtistsCollage(20,500,"short_term",True,True,"ashort_term.png")
-
-createTracksCollage(18,500,"long_term",True,True,"tlong_term.png")
-createTracksCollage(30,500,"medium_term",True,True,"tmedium_term.png")</code>
+<code>
+createArtistsCollage(10,100,"medium_term",True,True,"medium_term_artists.png")
+createArtistsCollage(20,500,"short_term",True,True,"short_term_artists.png")</code>
+  <code>
+createTracksCollage(18,700,"long_term",True,True,"long_term_tracks.png")
+createTracksCollage(30,200,"medium_term",False,True,"medium_term_tracks.png")
+  </code>
