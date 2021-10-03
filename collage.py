@@ -21,8 +21,8 @@ def getWithAndHeight(n):
 
 def createArtistsCollage(number,pictureSize,term,reverse,show,filename):
 	print("Creating Top Artists Collage")
-	sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id="0a7744871d6849bba8cdc784285218d9",
-	client_secret="f9e2a39cbea94b98b7733602cff3b420",
+	sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id="*************************",
+	client_secret="*************************",
 	redirect_uri="http://localhost",scope="user-top-read"))
 	width,height = getWithAndHeight(number)
 	if reverse:
@@ -54,8 +54,8 @@ def createArtistsCollage(number,pictureSize,term,reverse,show,filename):
 
 def createTracksCollage(number,pictureSize,term,reverse,show,filename):
 	print("Creating Top Tracks Collage")
-	sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id="0a7744871d6849bba8cdc784285218d9",
-	client_secret="f9e2a39cbea94b98b7733602cff3b420",
+	sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id="*************************",
+	client_secret="*************************",
 	redirect_uri="http://localhost",scope="user-top-read"))
 	width,height = getWithAndHeight(number)
 	if reverse:
